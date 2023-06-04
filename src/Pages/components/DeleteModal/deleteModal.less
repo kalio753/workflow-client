@@ -1,0 +1,35 @@
+.delete-modal {
+    .ant-modal-footer {
+        padding-top: 0 !important;
+    }
+
+    .modal_btn {
+        min-height: 42px;
+        border-radius: 4px;
+        span {
+            font-size: 16px;
+        }
+    }
+
+    .modal_btn--cancel {
+        &:hover {
+            background-color: transparent !important;
+            color: @primary-color !important;
+            border: 1px solid @primary-color;
+        }
+    }
+
+    .modal_btn--delete {
+        background-color: #ffe0e1;
+        color: #f23f44;
+        border: none;
+
+        &:hover {
+            background-color: #ffe0e1;
+            -webkit-animation: heartbeat 1.5s ease-in-out infinite both;
+            animation: heartbeat 1.5s ease-in-out infinite both;
+            color: #ef1119;
+            text-decoration: underline;
+        }
+    }
+}

@@ -1,0 +1,214 @@
+.tqt-layout-background {
+    background-color: @white-color;
+    margin: 29px 40px 40px;
+    border-radius: 12px;
+    min-height: fit-content;
+
+    .title {
+        font-weight: 700;
+        font-size: 28px;
+        color: #000;
+        margin: 0;
+        padding-top: 44px;
+        padding-bottom: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.tqt-content {
+    padding: 0 47px;
+}
+
+.tqt-form {
+    display: flex;
+    gap: 0 44px;
+    margin-bottom: 18px;
+
+    &__left {
+        width: 50%;
+        height: 44px;
+    }
+
+    &__right {
+        width: 50%;
+    }
+
+    &__folder,
+    &__template {
+        font-size: 18px;
+        width: 100%;
+        font-weight: 400;
+        height: 100%;
+
+        .ant-select-selector {
+            width: 100%;
+            height: 100% !important;
+            border: none !important;
+            background-color: #f0f5fa !important;
+            display: flex;
+            align-items: center;
+        }
+
+        .ant-select-selection-search {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.tqt-form__folder .ant-select-clear {
+    transform: translateY(-25%);
+}
+
+.ant-select-disabled.ant-select:not(.ant-select-customize-input)
+    .ant-select-selector {
+    color: rgba(255, 0, 0, 0.5);
+}
+
+.tqt-add {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 22px;
+    margin-top: 22px;
+
+    .btn-add {
+        display: flex;
+        height: 34px;
+        align-items: center;
+        padding: 0px 14px;
+        border: 1px solid #29b171;
+        color: #29b171;
+        border-radius: 3px;
+        &:hover {
+            background-color: transparent;
+            color: #29b171;
+        }
+
+        span {
+            display: flex;
+            align-items: center;
+        }
+    }
+}
+
+.tqt-wkf {
+    border: 1px solid #d8dffb;
+    padding: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 16px 0;
+
+    &__title {
+        padding: 0 30px;
+        display: flex;
+        width: 100%;
+        &-head {
+            font-size: 20px;
+            // text-align: center;
+            border-right: none;
+            font-weight: bold;
+            min-width: 160px;
+        }
+
+        &-position {
+            font-size: 20px;
+            flex: 1;
+            font-weight: bold;
+        }
+    }
+
+    &__item {
+        display: flex;
+        border-top: none;
+        // justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding: 14px 42px;
+        &:hover {
+            background-color: #fafafa;
+        }
+    }
+
+    .tqt-wkf__item-stepnumber {
+        // text-align: center;
+        min-width: 150px;
+        // width: 20%;
+        font-weight: 700;
+        color: #434349;
+    }
+    .tqt-wkf__item-person {
+        flex: 1;
+        padding-right: 16px;
+        font-weight: 400;
+        // min-width: 112px;
+        // width: 40%;
+        color: #434349;
+    }
+
+    .tqt-wkf__item-buttons {
+        display: flex;
+        margin-left: auto;
+        gap: 0 19px;
+    }
+
+    .tqt-wkf__item-edit-btn {
+        min-width: 92px;
+        border-radius: 4px;
+        background-color: #e0fff0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            font-size: 13px;
+        }
+    }
+
+    .tqt-wkf__item-edit-btn {
+        background-color: #e0fff0;
+        color: #29b171;
+        border-color: transparent;
+        &:hover {
+            border: none;
+            border-color: transparent;
+            outline: none;
+        }
+    }
+}
+
+.tqt-actions {
+    padding: 39px 0 44px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0 21px;
+
+    .btn {
+        width: 118px;
+        height: 44px;
+        border: 1px solid @primary-color;
+        color: @primary-color;
+        border-radius: 3px;
+
+        &:hover {
+            border-color: #f23f44;
+            color: #f23f44;
+        }
+    }
+
+    .btn_close {
+        background-color: @primary-color;
+        border: none;
+        color: @white-color;
+
+        &:hover {
+            border: none;
+            color: @white-color;
+            opacity: 0.85;
+        }
+    }
+}

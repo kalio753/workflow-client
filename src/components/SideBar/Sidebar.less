@@ -1,0 +1,142 @@
+.ant-menu {
+    margin-top: 15px;
+}
+
+.menu-item-7,
+.menu-item-8,
+.menu-item-9,
+.menu-item-10,
+.menu-item-11 {
+    span {
+        a {
+            // font-size: 1.6rem !important;
+        }
+    }
+}
+
+.ant-menu-item-selected {
+    img {
+        filter: invert(41%) sepia(13%) saturate(1711%) hue-rotate(86deg)
+            brightness(94%) contrast(87%);
+    }
+
+    span {
+        color: @primary-color;
+    }
+
+    a {
+        color: @primary-color !important;
+    }
+}
+
+.ant-layout-header {
+    background-color: #fff !important;
+    border-bottom: 1px solid #eeeff3;
+}
+
+.ant-layout-sider {
+    background-color: @primary-color;
+}
+
+// .ant-menu-title-content {
+//     font-size: 1.6rem;
+// }
+
+.ant-menu-dark .ant-menu-item-selected .icon,
+.ant-menu-dark .ant-menu-item-selected:hover {
+    color: @primary-color;
+    opacity: 1 !important;
+}
+
+// .ant-menu-dark .ant-menu-item:hover,
+// .ant-menu-submenu-title:hover {
+//     opacity: 0.75;
+// }
+
+.ant-menu-item:hover img {
+    filter: invert(39%) sepia(12%) saturate(2125%) hue-rotate(86deg)
+        brightness(95%) contrast(79%);
+}
+
+.ant-menu-submenu {
+    padding-bottom: 0px !important;
+}
+
+.logo {
+    height: 64px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.ant-layout-content {
+    margin: 0 !important;
+}
+
+.ant-breadcrumb {
+    padding: 15px 30px;
+    background-color: #fff;
+    margin: 0 !important;
+}
+
+.ant-breadcrumb li:last-child {
+    color: @primary-color;
+}
+
+.second-icon {
+    position: static;
+}
+
+.icon g {
+    fill: red;
+}
+
+.header {
+    height: 65px;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: end;
+
+    &__user-wrapper {
+        height: inherit;
+        display: flex;
+        align-items: center;
+        margin-right: 53px;
+    }
+
+    &__user-avatar {
+        width: 36px;
+        height: 36px;
+        border-radius: 100rem;
+        background-color: #ccc;
+    }
+
+    &__user-name {
+        font-size: 2rem;
+        margin: 0 20px 0 17px;
+
+        &:hover {
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+        strong {
+            font-size: 2rem;
+            font-weight: 800;
+        }
+    }
+
+    &__user-logout {
+        cursor: pointer;
+    }
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.last-icon {
+    margin-right: 10px;
+}

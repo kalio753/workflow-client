@@ -1,0 +1,169 @@
+.dsvbql__search {
+    height: fit-content;
+    display: flex;
+    align-items: flex-start;
+
+    &-input {
+        width: fit-content;
+        padding: 0;
+        border: none;
+        width: 477px;
+        background-color: #f0f5fa;
+        padding: 0 19px;
+        border-radius: 3px;
+        height: 44px;
+        font-size: 18px;
+        font-weight: 400;
+        .ant-input-clear-icon {
+            margin-right: -6px;
+            transform: translateY(5%);
+        }
+        input:hover,
+        input:focus {
+            border: none;
+        }
+    }
+
+    .search-btn {
+        border-radius: 3px;
+        border: none;
+
+        &:active {
+            -webkit-animation: bounce-top 0.1s both;
+            animation: bounce-top 0.1s both;
+        }
+    }
+}
+
+.dsvbql-layout-background {
+    background-color: @white-color;
+    margin: 29px 40px 40px;
+    border-radius: 12px;
+    min-height: 100vh;
+}
+
+.dsvbql-content {
+    width: inherit;
+    // min-height: 500px;
+    width: 100%;
+    border-radius: 12px;
+    padding: 30px 35px 0;
+    background-color: #fff;
+}
+
+.dsvbql-table {
+    margin-top: 18px;
+
+    .dsvbql-table__title {
+        color: #a1a5b7;
+        font-weight: 500;
+        padding-left: 51px;
+    }
+
+    .dsvbql-table__content {
+        font-weight: 700;
+        padding-left: 51px;
+        color: #434349;
+    }
+
+    .dsvbql-table__buttons {
+        display: flex;
+        justify-content: flex-end;
+        gap: 0 19px;
+        border-radius: 4px;
+        margin-right: 12px;
+    }
+
+    .dsvbql-table__button-edit,
+    .dsvbql-table__button-delete {
+        min-width: 92px;
+        background-color: #e0fff0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        span {
+            font-size: 13px;
+        }
+    }
+    .dsvbql-table__button-edit {
+        background-color: #e0fff1;
+        color: #29b171;
+        border-color: transparent;
+        &:hover {
+            background-color: #e0fff1;
+            color: #29b171;
+            border: none;
+            border-color: transparent;
+            outline: none;
+        }
+    }
+
+    .dsvbql-table__button-delete {
+        background-color: #ffe0e1;
+        color: #f23f44;
+        border-color: transparent;
+
+        &:hover {
+            background-color: #ffe0e1;
+            color: #f23f44;
+            border: none;
+            border-color: transparent;
+            outline: none;
+        }
+    }
+
+    .ant-table-thead {
+        .ant-table-cell {
+            background-color: @white-color;
+
+            // padding-left: 67px !important;
+            &::before {
+                content: "";
+                display: none;
+            }
+        }
+    }
+
+    .ant-pagination {
+        display: flex;
+        justify-content: start;
+        padding: 8px 30px;
+        margin-top: 32px;
+
+        li {
+            min-width: 26px;
+            height: 26px;
+        }
+
+        .ant-pagination-prev,
+        .ant-pagination-next {
+            button {
+                svg {
+                    color: #29b171;
+                }
+                border: none;
+                font-weight: 300;
+                color: #29b171;
+                background-color: #e2fff1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+
+        .ant-pagination-item {
+            border: none;
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #464e5f;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            &-active {
+                color: @primary-color;
+            }
+        }
+    }
+}

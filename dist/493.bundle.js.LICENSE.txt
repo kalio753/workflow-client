@@ -1,0 +1,30 @@
+/*!
+ * Determine if an object is a Buffer
+ *
+ * @author   Feross Aboukhadijeh <https://feross.org>
+ * @license  MIT
+ */
+
+/*!
+ * jQuery formRender: https://formbuilder.online/
+ * Version: 3.8.2
+ * Author: Kevin Chappell <kevin.b.chappell@gmail.com>
+ */
+
+/*!
+ * mi18n - https://github.com/Draggable/mi18n
+ * Version: 0.4.7
+ * Author: Kevin Chappell <kevin.b.chappell@gmail.com> (http://kevin-chappell.com)
+ */
+
+/*! regenerator-runtime -- Copyright (c) 2014-present, Facebook, Inc. -- license (MIT): https://github.com/facebook/regenerator/blob/main/LICENSE */
+
+/**
+ * @license React
+ * react-jsx-runtime.production.min.js
+ *
+ * Copyright (c) Facebook, Inc. and its affiliates.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
